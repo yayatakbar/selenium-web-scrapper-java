@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    org:
+      springframework: INFO
+
+spring:
+  application:
+    name: HelloWorldApp
+  profiles:
+    active: default
+  main:
+    banner-mode: off
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
